@@ -1,0 +1,7 @@
+function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), { center: { lat: 53.897869, lng: 27.535085 }, zoom: 15, styles: [{ featureType: "administrative", elementType: "labels.text.fill", stylers: [{ color: "#444444" }] }, { featureType: "landscape", elementType: "all", stylers: [{ color: "#f2f2f2" }] }, { featureType: "poi", elementType: "all", stylers: [{ visibility: "off" }] }, { featureType: "road", elementType: "all", stylers: [{ saturation: -100 }, { lightness: 45 }] }, { featureType: "road.highway", elementType: "all", stylers: [{ visibility: "simplified" }] }, { featureType: "road.arterial", elementType: "labels.icon", stylers: [{ visibility: "off" }] }, { featureType: "transit", elementType: "all", stylers: [{ visibility: "off" }] }, { featureType: "water", elementType: "all", stylers: [{ color: "#46bcec" }, { visibility: "on" }] }] });
+    var e = new google.maps.Marker({ position: { lat: 53.897869, lng: 27.535085 }, map: map, title: "Акула", icon: "images/icons/marker-pink.png" }),
+        t = new google.maps.InfoWindow({ content: '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Акула</h1><div id="bodyContent"><p>129323, Минск, пер.Северный, 26</p></div></div>', maxWidth: 450 });
+    e.addListener("click", function() { t.open(map, e) })
+}
+var map
