@@ -474,7 +474,7 @@ img {
 }
 
 .window-prices-point {
-  padding: 30px;
+  padding: 30px 0px;
   background: #e7e7e7;
   text-align: center;
 }
@@ -1008,10 +1008,12 @@ img {
   -ms-flex-preferred-size: 350px;
   flex-basis: 350px;
   padding: 20px 30px 0 30px;
+  text-align: center;
 }
 
 #free-consult input {
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .free-consult h5 {
@@ -1163,12 +1165,13 @@ img {
 .halva-text {
   padding: 20px 30px;
   background: var(--grey);
-  -webkit-flex-basis: 690px;
-  -ms-flex-preferred-size: 690px;
-  flex-basis: 690px;
+  /* -webkit-flex-basis: 690px; */
+  /* -ms-flex-preferred-size: 690px; */
+  /* flex-basis: 690px; */
   background: var(--grey) url(images/halva-left.jpg) no-repeat center center;
   background-size: cover;
   min-height: 242px;
+  width: 100%;
 }
 
 .halva-text-points {
@@ -1180,12 +1183,13 @@ img {
 }
 
 .halva-img {
-  background: url(images/halva-cart.jpg) no-repeat center center;
+  /* background: url(images/halva-cart.jpg) no-repeat center center;
   background-size: cover;
   -webkit-flex-basis: 401px;
   -ms-flex-preferred-size: 401px;
   flex-basis: 401px;
-  min-height: 248px;
+  min-height: 248px; */
+  display: none;
 }
 
 .halva-text-point p {
@@ -1221,12 +1225,13 @@ img {
   font-family: HCBold;
   color: var(--purple);
   text-align: center;
+  white-space: nowrap;
 }
 
 .scheme-point:before {
   content: "";
   position: absolute;
-  margin: 22px 0 0 -43px;
+  margin: 22px 0 0 -15px;
   width: 24px;
   height: 51px;
   background-image: url(images/icons/white-arrow.png);
@@ -1237,7 +1242,7 @@ img {
 }
 
 .mt-6 {
-  margin-top: -6px;
+  margin-top: -3px;
 }
 
 .map-consult {
@@ -2001,9 +2006,9 @@ input[type="range"]::-moz-range-thumb {
   .order-call.order-call-flex {
     margin: 0 auto;
   }
-  .free-consult {
+  /* .free-consult {
     display: none;
-  }
+  } */
   .co-workers-slider {
     max-width: 100%;
     -webkit-flex-basis: 100%;
@@ -2241,7 +2246,7 @@ input[type="range"]::-moz-range-thumb {
   }
   .p-title {
     margin: 20px auto 13px auto;
-    font-size: 14px;
+    font-size: 20px;
     padding: 9px;
   }
   .why-we-point_text h5 {
