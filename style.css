@@ -709,9 +709,39 @@ img {
 }
 
 .gallery-slide {
-  background: url(images/gallery-img1.jpg) no-repeat center center;
+  min-height: 550px;
+}
+.gallery-slide span {
+  font-weight: bold;
+}
+
+.gallery-slide.slide-1 {
+  background: url(images/photo_1.jpg) no-repeat center center;
   background-size: cover;
-  min-height: 395px;
+}
+.gallery-slide.slide-2 {
+  background: url(images/photo_2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery-slide.slide-3 {
+  background: url(images/photo_3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery-slide.slide-4 {
+  background: url(images/photo_4.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery-slide.slide-5 {
+  background: url(images/photo_5.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery-slide.slide-6 {
+  background: url(images/photo_6.jpg) no-repeat center center;
+  background-size: cover;
+}
+.gallery-slide.slide-7 {
+  background: url(images/photo_7.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .gallery-slide-wrap {
