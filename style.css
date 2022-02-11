@@ -949,6 +949,9 @@ img {
 .video-point-img {
   position: relative;
 }
+.video-point-img img:last-child{
+  width: 100%;
+}
 
 .purple-title {
   font-family: HCBold;
@@ -966,6 +969,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   max-width: 720px;
+  margin:0 auto;
+  text-align: center;
 }
 
 .co-workers-slide {
@@ -1210,6 +1215,9 @@ img {
 
 .halva-text-point {
   margin-right: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .halva-img {
@@ -1224,7 +1232,10 @@ img {
 
 .halva-text-point p {
   padding: 10px 20px;
-  font-size: 13px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 600;
+
 }
 
 .scheme {
@@ -2742,6 +2753,18 @@ input[type="range"]::-moz-range-thumb {
   }
   .why-we-point_text p {
     max-height: 100%;
+  }
+  .video-point {
+    max-width: 100%;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    /* margin-bottom: 30px; */
+  }
+  .video-point + .video-point {
+    margin-top: 30px;
   }
 }
 
