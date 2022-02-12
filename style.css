@@ -196,6 +196,7 @@ img {
 .header-content {
   background: #fff;
   position: relative;
+  /* border-bottom: px solid var(--purple); */
 }
 
 #why-we,
@@ -414,7 +415,7 @@ img {
 }
 
 .p-title {
-  margin: 38px auto 20px auto;
+  margin: 38px auto 10px auto;
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -422,6 +423,9 @@ img {
   color: var(--purple);
   padding: 12px;
   background: #f2f2f2;
+  border-radius: 40px 40px 0px 0px;
+}
+
 }
 .p-title  span {
     font-size: 16px;
@@ -956,7 +960,7 @@ img {
 .purple-title {
   font-family: HCBold;
   font-size: 18px;
-  color: var(--purple);
+  color: inherit;
 }
 
 .co-workers-slider {
@@ -1235,7 +1239,6 @@ img {
   font-family: Arial;
   font-size: 16px;
   font-weight: 600;
-
 }
 
 .scheme {
@@ -1247,7 +1250,8 @@ img {
   -webkit-align-items: center;
   -moz-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: flex-start;
+  display: flex;
 }
 
 .scheme-point {
@@ -1266,7 +1270,7 @@ img {
   font-family: HCBold;
   color: var(--purple);
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .scheme-point:before {
@@ -1283,7 +1287,7 @@ img {
 }
 
 .mt-6 {
-  margin-top: -3px;
+  margin-top: 0px;
 }
 
 .map-consult {
@@ -2286,7 +2290,7 @@ input[type="range"]::-moz-range-thumb {
     display: none;
   }
   .p-title {
-    margin: 20px auto 13px auto;
+    margin: 20px auto 10px auto;
     font-size: 20px;
     padding: 9px;
   }
