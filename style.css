@@ -196,7 +196,7 @@ img {
 .header-content {
   background: #fff;
   position: relative;
-  /* border-bottom: px solid var(--purple); */
+  border-bottom: 3px solid var(--purple);
 }
 
 #why-we,
@@ -247,10 +247,10 @@ img {
   -ms-flex-preferred-size: 410px;
   flex-basis: 410px;
 }
-
+/*
 .h-left {
   margin-right: 28px;
-}
+} */
 
 .h-right {
   -webkit-flex-basis: 914px;
@@ -1214,14 +1214,25 @@ img {
 }
 
 .halva-text-points {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.halva-text-points p {
+  text-align: center;
 }
 
 .halva-text-point {
-  margin-right: 15px;
+
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+.halva-text-point + .halva-text-point {
+  margin-left: 10px;
+}
+.halva-text-point_img {
+  height: 100px;
 }
 
 .halva-img {
@@ -2227,7 +2238,7 @@ input[type="range"]::-moz-range-thumb {
     width: 93%;
   }
   .h-left {
-    margin-right: 3px;
+    margin-right: -10px;
   }
   .navbar-toggle {
     margin: -57px 0 0 0;
@@ -2778,7 +2789,7 @@ input[type="range"]::-moz-range-thumb {
     margin: 6px 0 0 0;
   }
   .h-logo a img {
-    width: 110%;
+    width: 100%;
   }
   .why-we-point_text {
     height: 295px;
