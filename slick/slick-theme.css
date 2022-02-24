@@ -35,7 +35,7 @@
 .slick-prev:hover {
     color: transparent;
     outline: 0;
-    background: 0 0
+    background: 0 0;
 }
 
 .slick-next:focus:before,

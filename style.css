@@ -387,6 +387,11 @@ img {
   transition: 0.3s;
 }
 
+.banner-hero .slick-next:hover,
+.banner-hero .slick-prev:hover {
+  background:  #eeb95f;
+}
+
 .btn-purple:hover {
   background: #f1bc5e;
 }
