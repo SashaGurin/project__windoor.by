@@ -257,6 +257,10 @@ img {
   -ms-flex-preferred-size: 914px;
   flex-basis: 914px;
 }
+.navbar-default .navbar-nav>li>a:hover {
+  background-color:transparent;
+  color: #3c3c3c!important;
+}
 
 .btn-sample {
   width: 100%;
@@ -388,7 +392,10 @@ img {
 }
 
 .banner-hero .slick-next:hover,
-.banner-hero .slick-prev:hover {
+.banner-hero .slick-prev:hover,
+.gallery-slider .slick-next:hover,
+.gallery-slider .slick-prev:hover
+{
   background:  #eeb95f;
 }
 
@@ -1933,7 +1940,7 @@ input[type="range"]::-moz-range-thumb {
   margin-top: -30px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
   #why-we,
   #prices,
   #profile-systems,

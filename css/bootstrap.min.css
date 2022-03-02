@@ -3803,7 +3803,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #000!important
+    color: var(--purple)!important
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -3816,7 +3816,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
-    background-color: #e7e7e7
+    background-color: #e7e7e7;
 }
 
 .navbar-default .navbar-nav>.disabled>a,
